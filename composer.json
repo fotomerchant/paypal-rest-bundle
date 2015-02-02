@@ -1,0 +1,33 @@
+{
+    "name": "fotomerchant/paypal-rest-bundle",
+    "type": "symfony-bundle",
+    "description": "Allows you to interact with the PayPal REST API via the PHP SDK",
+    "keywords": ["paypal", "rest", "payments"],
+    "homepage": "http://github.com/fotomerchant/paypal-rest-bundle",
+    "license": "Apache2",
+    "authors": [
+        {
+            "name": "Derek Clapham",
+            "email": "derek.clapham@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.2",
+        "symfony/framework-bundle": "~2.1",
+        "paypal/rest-api-sdk-php" : "1.1.*"
+    },
+    "require-dev": {
+        "symfony/validator": "*"
+    },
+    "suggest": { },
+    "autoload": {
+        "psr-0": { "FM\\PayPalRestBundle": "" }
+    },
+    "minimum-stability": "dev",
+    "target-dir": "FM/PayPalRestBundle",
+    "extra": {
+        "branch-alias": {
+            "dev-master": "0.1-dev"
+        }
+    }
+}
